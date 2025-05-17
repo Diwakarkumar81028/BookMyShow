@@ -206,3 +206,14 @@ h1{
     padding-bottom: 1vh;
     border-radius: 1rem;
 }
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main{
+    margin-top: 25vh;
+}
