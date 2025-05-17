@@ -94,3 +94,115 @@ h1{
         justify-content: center;
     }
 }
+
+#main1{
+    display: flex;
+    margin-top: 6vh;
+    overflow-x: scroll;
+    gap:2rem;
+}
+
+.rec{
+    height: 37vh;
+    width: auto;
+    border-radius: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#recommended{
+    display: flex;
+   margin-left: 8vw;
+   margin-right: 8vw;
+    overflow-x: scroll;
+    gap:4rem;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+@media(max-width:450px){
+    #recommended{
+        flex-direction: column;
+    }
+}
+
+#en{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    width: 83.7vw;
+}
+
+#r{
+    padding-left: 8vw;
+    margin-top: 6vh;
+}
+
+#ev{
+    padding-left: 8vw;
+    margin-top: 10vh;
+}
+
+#best{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 6vh;
+    overflow-x: scroll;
+}
+
+.comdy{
+    height: 35vh;
+    width: auto;
+}
+
+#prem{
+    background-color: rgb(31, 31, 83);
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 4vh;
+    margin-bottom: 6vh;
+    padding-bottom: 8vh;
+}
+
+#prem1{
+    margin-left: 8vw;
+}
+
+#prem1 h2{
+    color: white;
+    font-size: 1.6rem;
+}
+
+#prem p{
+    color: white;
+}
+
+#prem2{
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    gap:2rem;
+    overflow-x: scroll;
+    align-items: baseline;
+}
+
+#prem2 h2{
+  color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p{
+    height: 20vw;
+    width: auto;
+    padding-bottom: 1vh;
+    border-radius: 1rem;
+}
