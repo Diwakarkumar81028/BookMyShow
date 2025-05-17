@@ -81,3 +81,16 @@ h1{
     color: white;
     cursor: pointer;
 }
+
+@media (max-width:675px){
+    #header2_1,#header2_2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #header1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
