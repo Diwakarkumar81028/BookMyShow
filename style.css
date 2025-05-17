@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: brown;
+    padding-bottom: 3vh;
+    padding-top: 1vh;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header1{
+    display: flex;
+    justify-content: space-between;
+}
+#header1_1{
+    display:flex;
+    gap: 4vw;
+    margin-top: 0.5vh;
+}
+
+#header1_1 >input{
+    width:25vw;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+#header1_2{
+    display: flex;
+    gap:4vw;
+    align-items: baseline;
+    margin-top: 1vh;
+}
+
+#header1_2 select{
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    border: 0;
+}
+
+#header1_2 button{
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+    background-color: brown;
+    color: white;
+}
+
+#header2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+#header2_1{
+    display: flex;
+    gap:1vw;
+}
+
+#header2_2{
+    display: flex;
+    gap:1vw;
+}
+
+#header2 button{
+    font-size: 1rem;
+    border: 0;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
