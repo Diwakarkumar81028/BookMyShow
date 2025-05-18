@@ -217,3 +217,35 @@ header{
 main{
     margin-top: 25vh;
 }
+
+footer{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 6vh;
+}
+
+#foot1{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border: 3px gray solid;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p1{
+    color: brown;
+    font-size: larger;
+}
+
+#foot2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    gap:2rem
+}
